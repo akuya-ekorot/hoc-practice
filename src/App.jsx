@@ -4,7 +4,7 @@ import Heading from "./Heading";
 const HomeLayout = Layout(Heading);
 
 const Home = () => {
-  return <HomeLayout />;
+  return <HomeLayout text={"Hello World"} />;
 };
 
 export default Home;

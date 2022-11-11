@@ -1,10 +1,10 @@
 import NavBar from "./NavBar";
 
-const Layout = (Component) => () => {
+const Layout = (Component) => (text) => {
   return (
     <div className="flex flex-col gap-10 items-center">
       <NavBar />
-      <Component />
+      <Component {...text} />
     </div>
   );
 };
